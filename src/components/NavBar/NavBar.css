@@ -1,0 +1,97 @@
+nav {
+  display: flex;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: -80px;
+  padding: 2px 0 0 0;
+}
+.Link {
+  list-style: none;
+  margin: 0 35px;
+  text-decoration: none;
+}
+.Link p {
+  text-decoration: none;
+  color: #ddad49;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Link p:hover {
+  color: #354a67;
+}
+.NavMobile {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 992px) {
+  .NavBar .Link {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  nav ul {
+    margin-bottom: 0;
+  }
+  .NavBar {
+    display: none;
+    visibility: hidden;
+  }
+  .toCart {
+    border-left: 1pa solid #354a67;
+  }
+  .NavMobile svg {
+    border: none;
+    padding: 3px;
+  }
+  .NavMobile svg:hover {
+    transform: rotate(0deg);
+  }
+  .jusftify {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .NavMobile button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #354a67;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+  }
+  .NavMobile {
+    display: block;
+    visibility: visible;
+    width: 90%;
+  }
+  .NavMobile nav {
+    display: block;
+  }
+  .NavMobile nav ul .Link {
+    margin: 0;
+  }
+  .NavMobile nav ul {
+    display: none;
+    visibility: hidden;
+  }
+  .NavMobile .active {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    visibility: visible;
+  }
+}

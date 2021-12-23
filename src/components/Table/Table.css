@@ -1,0 +1,93 @@
+h3 {
+  margin-left: 15px;
+}
+.csv-btn {
+  text-align: center;
+  border-radius: 4px;
+  background-color: #319795;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: aliceblue;
+  text-decoration: none;
+  height: auto;
+  box-shadow: 2px 2px 3px #a4a4a4;
+}
+.buttonModal {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #399be7;
+  border: 2px solid #399be7;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #a4a4a4;
+}
+.search {
+  box-shadow: 1px 1px 2px #a4a4a4;
+}
+.btnsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 15px 15px 15px;
+}
+.tableProducts {
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #a4a4a4;
+  overflow-x: scroll;
+  min-width: 600px;
+}
+.tableContainer {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+.tableProducts th {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  padding: 10px 3px;
+}
+.tableProducts td {
+  border: none;
+  padding: 5px 5px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.tableProducts tr:last-child td {
+  border: none;
+}
+.tableProducts tbody tr:nth-child(odd) {
+  background-color: rgb(206, 199, 194);
+}
+.tableProducts tr td:last-child {
+  width: 46px;
+  padding: 5px 0;
+}
+.tableProducts tr td svg {
+  border-left: none;
+  padding: 5px 0;
+  margin-right: 5px;
+}
+@media screen and (max-width: 650px) {
+  .btnsContainer {
+    flex-direction: column;
+  }
+  .buttonModal {
+    margin-top: 10px;
+  }
+}
+.tableProducts tr td:nth-child(2),
+.tableProducts tr th:nth-child(2) {
+  text-align: start;
+}

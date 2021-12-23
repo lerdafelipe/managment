@@ -1,0 +1,13 @@
+.footer p {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer span {
+  color: #2eb1ed;
+}
+.footer a {
+  color: #2eb1ed;
+  text-decoration: underline;
+}

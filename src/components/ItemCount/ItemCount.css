@@ -1,0 +1,72 @@
+.containerCount {
+  padding: 0 7px;
+  max-width: 100%;
+}
+.counter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  color: whitesmoke;
+  width: 100%;
+  border: 1px solid #1b1a1f;
+  border-radius: 3px;
+}
+.counter-container p {
+  text-align: center;
+  margin: auto;
+  color: #1b1a1f;
+  font-size: 16px;
+  font-weight: 600;
+}
+.counter-container button {
+  border: none;
+  margin: 0;
+  padding: 0px 7px;
+  cursor: pointer;
+  font-size: 22px;
+}
+.counter-container button:nth-child(1) {
+  background-color: transparent;
+  border-right: 1px solid #1b1a1f;
+  color: #1b1a1f;
+}
+.counter-container button:nth-child(3) {
+  background-color: transparent;
+  border-left: 1px solid #1b1a1f;
+  color: #1b1a1f;
+  padding-left: 9.26px;
+  padding-right: 9.26px;
+}
+.onAdd {
+  width: 100%;
+  color: #9f5816;
+  margin-top: 5px;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #9f5816;
+  cursor: pointer;
+  background-color: transparent;
+}
+.onAdd:hover {
+  color: #1b1a1f;
+  border: 1px solid #1b1a1f;
+  background-color: #9f5816;
+}
+.endPurchase {
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49, 151, 149);
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 3px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 15px -3px,
+    rgb(0 0 0 / 5%) 0px 4px 6px -2px;
+}

@@ -1,0 +1,110 @@
+.ModalContainer {
+  position: fixed;
+  z-index: 1009;
+  background-color: rgba(70, 60, 60, 0.438);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Modal {
+  height: 330px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px #a4a4a4;
+}
+.closeModel {
+  background-color: #ec4e4e;
+  height: 25px;
+  width: 27px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 380px;
+  margin-top: -12px;
+  padding-top: 2px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #a4a4a4;
+}
+.Modal h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.Formcontainer {
+  padding: 0 10px;
+}
+.Formcontainer form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.Formcontainer div {
+  padding: 0 5px;
+  margin-top: 10px;
+}
+.Formcontainer div:first-child,
+.Formcontainer div:nth-child(6),
+.Formcontainer div:last-child {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.Formcontainer div:first-child input,
+.Formcontainer div:nth-child(6) input,
+.Formcontainer div:last-child input {
+  width: 95%;
+}
+.Formcontainer div input {
+  background-color: rgba(0, 0, 0, 0.15);
+  outline: none;
+  border: none;
+  height: 40px;
+  border-radius: 3px;
+  padding-bottom: 0;
+  padding-top: 7px;
+}
+.Formcontainer div p {
+  font-size: 12px;
+  margin: 0 0 -14px 7px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.btnSendProduct {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  border: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #319795;
+  color: #fff;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px #a4a4a4;
+  cursor: pointer;
+}
+@media screen and (max-width: 470px) {
+  .Modal {
+    width: 90vw;
+    height: auto;
+    padding-bottom: 15px;
+  }
+  .closeModel {
+    margin-left: -12px;
+  }
+  .Formcontainer form {
+    justify-content: center;
+  }
+  .Formcontainer form div {
+    width: 100%;
+  }
+  .Formcontainer form div input {
+    width: 100%;
+  }
+}

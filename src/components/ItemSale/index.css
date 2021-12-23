@@ -1,0 +1,9 @@
+.itemSale:nth-child(odd) td:nth-child(1) {
+  color: green;
+}
+.itemSale:nth-child(even) td:nth-child(1) {
+  color: red;
+}
+.button-celd {
+  width: 46px;
+}
